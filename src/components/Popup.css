@@ -13,3 +13,9 @@
 .no-love {
   height: 350px;
 }
+@media screen and (max-width: 500px) {
+  .no-love,
+  .true-love {
+    left: 0%;
+  }
+}
