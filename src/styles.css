@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+body {
+  background: lightsteelblue;
+  height: 100vh;
+  font-family: "Twinkle Star", sans-serif;
+}
+.card-container {
+  width: 300px;
+  height: 620px;
+  margin: 20px auto 0;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: white;
+  border-radius: 15px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.bottom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 10px;
+  margin-top: 480px;
+}
+
+button {
+  padding: 5px 20px;
+  border-radius: 15px;
+}
+button:hover {
+  background: gold;
+  border: 1px black solid;
+}
+span {
+  font-size: 30px;
+}
+.likes {
+  color: green;
+  font-size: 20px;
+}
+.dislikes {
+  color: red;
+  font-size: 20px;
+}
+h1 {
+  font-family: "Twinkle Star", sans-serif;
+  text-align: center;
+}
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+.slide img {
+  width: 250px;
+  height: 390px;
+  object-fit: cover;
+  margin-left: 25px;
+  border-radius: 15px;
+}
+.active-anim {
+  opacity: 1;
+}
+.top-line {
+  height: 2vh;
+  background: green;
+}
+.bottom-line {
+  margin-top: 52px;
+  height: 2vh;
+  background: gold;
+}

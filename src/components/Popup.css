@@ -1,0 +1,15 @@
+.no-love,
+.true-love {
+  height: 550px;
+  width: 480px;
+  background: rgb(70, 54, 216);
+  position: absolute;
+  top: 70px;
+  left: 30%;
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+.no-love {
+  height: 350px;
+}
